@@ -63,8 +63,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- Change Kubernetes -->		
-		<!--<dependency>
+		<dependency>
 		    <groupId>io.micrometer</groupId>
 		    <artifactId>micrometer-observation</artifactId>
 		</dependency>
@@ -72,11 +71,13 @@
 		    <groupId>io.micrometer</groupId>
 		    <artifactId>micrometer-tracing-bridge-otel</artifactId>
 		</dependency>
-		<dependency>
+		
+			<!-- Change Kubernetes -->		
+		<!--<dependency>
 		    <groupId>io.opentelemetry</groupId>
 		    <artifactId>opentelemetry-exporter-zipkin</artifactId>
-		</dependenc-->
-		
+		</dependency>-->
+				
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
